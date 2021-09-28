@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanda hermosa de mi vida</title>
+</head>
+<script defer>
+    window.onload = () => {
+        const btnNo = document.getElementById("btn-no")
+    btnNo.onmouseover = () => {
+        btnNo.innerText = "Si"
+    }
+    btnNo.onmouseleave = () => {
+        btnNo.innerText = "No"
+    }
+    }
+</script>
+<body>
+    <body>
+        <div style="text-align: center;
+        padding: 10px;">
+            <div>Sabias que te amo muchisimo ?</div>
+            <div style="padding: 10px;">
+                <button onclick="alert('te amo :D')" style="cursor: pointer;" id="btn-si">Si</button>
+                <button onclick="alert('te amo :D')" style="cursor: pointer;" id="btn-no">No</button>
+            </div>
+        </div>
+    </body>
+</body>
+</html>
